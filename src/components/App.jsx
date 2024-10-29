@@ -22,6 +22,9 @@ function App() {
                   <span className="bg-green-700 text-green-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">ReactJS</span>
                   <span
                       className="bg-green-700 text-green-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">TailwindCSS</span>
+                  <span
+                      className="bg-green-700 text-green-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">.NET</span>
+
               </div>
               <h2 className="mt-4 text-xl font-medium">Databases</h2>
               <div className="py-2">
