@@ -9,7 +9,8 @@ function About() {
     return (
         <>
             <div className="p-8 sm:p-14 w-[100vw] sm:w-[40vw] h-auto sm:h-[100vh] sm:fixed">
-                <div className="w-40 h-40 mb-2 bg-white rounded-full"></div>
+                <div ></div>
+                <img className="w-40 h-40 mb-2 rounded-full" src="https://github.com/markbakos/portfolio/blob/main/src/assets/favicon.png?raw=true" />
                 <h1 className="mb-1 text-4xl font-bold">Mark Bakos</h1>
                 <h2 className="mb-2 text-2xl text-gray-400">Fullstack Web & Software Developer</h2>
                 <h2 className="mb-3 text-xl text-gray-400">Szeged, Hungary 🇭🇺</h2>
