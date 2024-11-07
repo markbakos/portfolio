@@ -11,6 +11,16 @@ function Projects() {
                     <h1 className="text-3xl mb-3 font-semibold">Projects</h1>
 
                     <ProjectContainer
+                        title="MERN Login/Register App"
+                        points={['Developed a full-stack login/register app using MERN stack, with authentication and authorization features.',
+                            'Utilized ReactJS for the frontend, ExpressJS for the backend, and MongoDB for the database.',
+                            'Deployed the app with Render',]}
+                        skills={['ReactJS', 'ExpressJS', 'MongoDB', 'TailwindCSS']}
+                        codeLink="https://github.com/markbakos/mern-login"
+                        demoLink="https://mern-login-frontend-x4uz.onrender.com"
+                    />
+
+                    <ProjectContainer
                         title="Personal Portfolio"
                         points={['Designed a personal portfolio using ReactJS and Vite, to showcase projects and skills effectively.',
                             'Built with responsive design principles to ensure a seamless experience across desktops, tablets, and mobile devices.',]}
@@ -23,8 +33,9 @@ function Projects() {
                         title="Bet Tracker"
                         points={['Developed a responsive bet tracking application using ReactJS and Vite, providing users with a fast and efficient experience.',
                             'Designed an intuitive, responsive UI with TailwindCSS, making the app accessible and user-friendly across devices.',
-                            'Integrated local storage to save betting data securely on users devices']}
-                        skills={['ReactJS', 'TailwindCSS']}
+                            'Integrated local storage to save betting data securely on users devices',
+                            'Added charts for data visualization with ChartJS.']}
+                        skills={['ReactJS', 'TailwindCSS', 'ChartJS']}
                         codeLink="https://github.com/markbakos/bet-tracker"
                         demoLink="https://bet-tracker-delta.vercel.app/"
                     />

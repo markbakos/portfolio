@@ -68,13 +68,18 @@ function About() {
                     <Link to="/">
                     <button
                         className={`h-8 w-[8rem] mr-5 font-medium border rounded-sm hover:bg-white hover:text-black transition ${splitLocation[1] === "" ? "bg-white text-black" : "bg-transparent text-white"}`}>
-                        About Me
+                        About Me 🇺🇸
                     </button></Link>
                        <Link to="/projects"> <button
                             className={`h-8 w-[8rem] mr-5 font-medium border rounded-sm hover:bg-white hover:text-black transition ${splitLocation[1] === "projects" ? "bg-white text-black" : "bg-transparent text-white"}`}>
                             Projects
                        </button></Link>
                 </div>
+                <Link to="/hu">
+                    <button
+                        className={`h-8 w-[8rem] mt-4 mr-5 font-medium border rounded-sm hover:bg-white hover:text-black transition ${splitLocation[1] === "hu" ? "bg-white text-black" : "bg-transparent text-white"} ${splitLocation[1] === "projects" ? "hidden" : ""}`}>
+                        Rólam 🇭🇺
+                    </button></Link>
             </div>
         </>
     )
