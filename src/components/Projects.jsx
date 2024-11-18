@@ -11,6 +11,21 @@ function Projects() {
                     <h1 className="text-3xl mb-3 font-semibold">Projects</h1>
 
                     <ProjectContainer
+                        title="Restaurant App"
+                        points={[
+                            'Developed a full-stack restaurant management application using the MERN stack, enabling seamless order management and status tracking.',
+                            'Implemented functionality for creating, updating, and managing orders with dynamic filtering by order status.',
+                            'Implemented functionality for reserving tables, and for administrators to view and manage the reservations.',
+                            'Built a responsive and intuitive UI with ReactJS and TailwindCSS, enhancing user experience across all devices.',
+                            'Integrated RESTful APIs.',
+                            'Deployed the application using Render for live access and testing.'
+                        ]}
+                        skills={['ReactJS', 'ExpressJS', 'MongoDB', 'TailwindCSS', 'Restful APIs']}
+                        codeLink="https://github.com/markbakos/restaurant-page"
+                        demoLink="https://restaurant-page-y9ps.onrender.com/"
+                    />
+
+                    <ProjectContainer
                         title="MERN Login/Register App"
                         points={['Developed a full-stack login/register app using MERN stack, with authentication and authorization features.',
                             'Utilized ReactJS for the frontend, ExpressJS for the backend, and MongoDB for the database.',
