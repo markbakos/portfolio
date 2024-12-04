@@ -11,6 +11,22 @@ function Projects() {
                     <h1 className="text-3xl mb-3 font-semibold">Projects</h1>
 
                     <ProjectContainer
+                        title="Interactive Quiz Application"
+                        points={[
+                            'Developed a full-stack quiz application using the MERN stack, allowing users to create, take, and share quizzes.',
+                            'Implemented user authentication with JWT for secure sign-up and login functionality.',
+                            'Created features for custom quiz creation.',
+                            'Built real-time leaderboards for tracking top scores and fostering competition among users.',
+                            'Designed user profiles.',
+                            'Developed a responsive UI using ReactJS and TailwindCSS, ensuring compatibility across devices.',
+                            'Deployed the application on Render for live access.'
+                        ]}
+                        skills={['ReactJS', 'ExpressJS', 'MongoDB', 'TailwindCSS']}
+                        codeLink="https://github.com/markbakos/quiz_app"
+                        demoLink="https://quizapp-dhav.onrender.com/"
+                    />
+
+                    <ProjectContainer
                         title="Restaurant App"
                         points={[
                             'Developed a full-stack restaurant management application using the MERN stack, enabling seamless order management and status tracking.',
