@@ -14,6 +14,7 @@ function App() {
                   <span className="bg-indigo-700 text-indigo-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">JavaScript</span>
                   <span className="bg-indigo-700 text-indigo-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">TypeScript</span>
                   <span className="bg-indigo-700 text-indigo-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">C#</span>
+                  <span className="bg-indigo-700 text-indigo-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">Python</span>
               </div>
               <h2 className="mt-4 text-xl font-medium">Frameworks</h2>
               <div className="py-2">
@@ -22,6 +23,7 @@ function App() {
                   <span className="bg-green-700 text-green-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">ExpressJS</span>
                   <span className="bg-green-700 text-green-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">NodeJS</span>
                   <span className="bg-green-700 text-green-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">.NET</span>
+                  <span className="bg-green-700 text-green-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">FastAPI</span>
 
               </div>
               <h2 className="mt-4 text-xl font-medium">Databases</h2>
@@ -42,7 +44,7 @@ function App() {
 
               <h1 className="text-3xl mt-10 mb-5 font-semibold">Education</h1>
               <div className="flex flex-row">
-                  <img className="rounded-full h-24 w-24 sm:h-32 sm:w-32"
+                  <img className="rounded-full h-24 w-24 sm:h-32 sm:w-32" alt="University of Szeged"
                        src="https://www.inf.u-szeged.hu/sites/default/files/upload/szte_ttik.png"/>
                   <div className="ml-8">
                       <h1 className="text-3xl font-medium">Computer Science Engineering (BSc)</h1>
@@ -52,7 +54,7 @@ function App() {
               </div>
 
               <div className="flex flex-row mt-5">
-                  <img className="rounded-full h-24 w-24 sm:h-32 sm:w-32"
+                  <img className="rounded-full h-24 w-24 sm:h-32 sm:w-32" alt="Technical School of Becej"
                        src="https://srednjeskole.edukacija.rs/wp-content/uploads/2014/06/logoTS.png"/>
                   <div className="ml-8">
                       <h1 className="text-3xl font-medium">Diploma of Information Technology</h1>

@@ -16,6 +16,8 @@ function AppHUN() {
                         <span
                             className="bg-indigo-700 text-indigo-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">TypeScript</span>
                         <span className="bg-indigo-700 text-indigo-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">C#</span>
+                        <span
+                            className="bg-indigo-700 text-indigo-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">Python</span>
                     </div>
 
                     <h2 className="mt-4 text-xl font-medium">Keretrendszerek</h2>
@@ -29,6 +31,8 @@ function AppHUN() {
                         <span
                             className="bg-green-700 text-green-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">NodeJS</span>
                         <span className="bg-green-700 text-green-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">.NET</span>
+                        <span
+                            className="bg-green-700 text-green-200 px-2.5 py-1.5 mr-2 rounded-2xl text-md">FastAPI</span>
                     </div>
 
                     <h2 className="mt-4 text-xl font-medium">Adatbázisok</h2>
@@ -53,7 +57,7 @@ function AppHUN() {
 
                     <h1 className="text-3xl mt-10 mb-5 font-semibold">Tanulmányok</h1>
                     <div className="flex flex-row">
-                        <img className="rounded-full h-24 w-24 sm:h-32 sm:w-32"
+                        <img className="rounded-full h-24 w-24 sm:h-32 sm:w-32" alt="Szegedi Tudományegyetem"
                              src="https://www.inf.u-szeged.hu/sites/default/files/upload/szte_ttik.png"/>
                         <div className="ml-8">
                             <h1 className="text-3xl font-medium">Programtervező informatikus (BSc)</h1>
@@ -63,7 +67,7 @@ function AppHUN() {
                     </div>
 
                     <div className="flex flex-row mt-5">
-                        <img className="rounded-full h-24 w-24 sm:h-32 sm:w-32"
+                        <img className="rounded-full h-24 w-24 sm:h-32 sm:w-32" alt="Műszaki Iskola Becse"
                              src="https://srednjeskole.edukacija.rs/wp-content/uploads/2014/06/logoTS.png"/>
                         <div className="ml-8">
                             <h1 className="text-3xl font-medium">Információs Tehnológiák Elektrotehnikusa</h1>
